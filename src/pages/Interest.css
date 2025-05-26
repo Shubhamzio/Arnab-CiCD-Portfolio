@@ -1,0 +1,264 @@
+/* Page structure */
+.interest-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.interest-page {
+  flex: 1;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Heading */
+.page-heading {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+/* Tabs */
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.tab-button {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.3s;
+  color: #262626;
+}
+
+.tab-button.active, .tab-button:hover {
+  background: #000;
+  color: #fff;
+}
+
+/* Gallery Grid (fixed 3 columns) */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 10px;
+
+}
+
+.gallery-item {
+  background: #fafafa;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  transition: transform 0.3s ease;
+  padding: 10px;
+
+
+}
+
+.gallery-item:hover {
+  transform: scale(1.03);
+}
+
+.gallery-item img {
+  width: 400px;
+  height: 300px;
+  object-fit: contain;
+  margin: auto;
+
+}
+
+.img-caption {
+  font-size: 16px;
+
+  color: #333;
+}
+
+/* Lightbox */
+.lightbox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.lightbox-card {
+  position: relative;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 90%;
+  max-height: 90%;
+  animation: zoomIn 0.3s ease;
+  text-align: center;
+  padding: 2rem 2rem;
+}
+.close-btn{
+   background-color: none;
+   color: yellow;
+   padding:1rem 1rem;
+}
+
+@keyframes zoomIn {
+  from { transform: scale(0.8); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+.lightbox-card img {
+  max-width: 100%;
+  max-height: 70vh;
+  border-radius: 8px;
+}
+
+.caption {
+  margin-top: 15px;
+  font-size: 18px;
+  color: #333;
+}
+
+.close-btn {
+  position: absolute;
+  top: -40px;
+  right:-40px;
+  background: transparent;
+  color: #a5a5a5;
+  border: none;
+  padding: 0.2rem;
+  font-size: 80px;
+  border-radius: 20px;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+}
+.read-more {
+  display: inline-block;
+  margin-top: 10px;
+  background: #000;
+  color: #fff;
+  padding: 8px 14px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+
+.read-more:hover {
+  background: #444;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: 1100px) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 999px) {
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .close-btn {
+  position: absolute;
+  top: -50px;
+  right:-30px;
+  background: transparent;
+  color: #a5a5a5;
+  border: none;
+  padding: 0.2rem;
+  font-size: 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+}
+}
+
+@media (max-width: 899px) {
+  .gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .close-btn {
+  position: absolute;
+  top: -50px;
+  right:-30px;
+  background: transparent;
+  color: #a5a5a5;
+  border: none;
+  padding: 0.2rem;
+  font-size: 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+}
+}
+
+@media (max-width: 599px) {
+  .gallery {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .gallery-item{
+    display: flex;
+  justify-content: center; /* Horizontal */
+  align-items: center;     /* Vertical */
+  height: 100%;
+  width: 300px;
+  flex-direction: column;
+  margin: auto;
+
+
+  }
+  .gallery-item img{
+    width: auto;
+    background-size: contain;
+    margin: auto;
+  height: 360px;
+
+  }
+  .img-caption {
+  font-size: 13px;
+  padding: 10px;
+  color: #333;
+}
+.lightbox-card  {
+  position: relative;
+  background: #fff;
+  padding: 10px;
+  border-radius: 12px;
+  max-width: 70%;
+  max-height: 70%;
+  animation: zoomIn 0.3s ease;
+  text-align: center;
+  padding: 10px;
+}
+.lightbox-card img {
+   width: 100%;
+}
+.close-btn {
+  position: absolute;
+  top: -50px;
+  right:-30px;
+  background: transparent;
+  color: #a5a5a5;
+  border: none;
+  padding: 0.2rem;
+  font-size: 60px;
+  border-radius: 20px;
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+}
+
+}

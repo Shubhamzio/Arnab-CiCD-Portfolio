@@ -1,0 +1,242 @@
+*{
+   margin:0;
+   padding: 0;
+    box-sizing: border-box;
+}
+.slider {
+  padding: 3rem;
+  background-color: rgb(255, 166, 0);
+  margin: auto;
+
+  /* Center the slider vertically and horizontally */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* vertical center */
+  align-items: center;     /* horizontal center */
+}
+.slider_heading{
+
+    margin :auto;
+    text-align: center;
+    padding-bottom: 3rem;
+}
+.slider_heading h1 {
+    font-size: 3rem;
+    color:  #122;
+}
+.Cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    margin: auto;
+    z-index: 9999;
+}
+
+.card {
+    height: 400px;
+    width: 400px;
+    border: none;
+    outline: none;
+    box-shadow: 12px 12px 12px 12px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+ background-color: #fff;
+
+  }
+
+  .card img {
+    height: 75%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;;
+  }
+
+  .card h2
+ {
+    margin: 0;
+    text-align: center;
+    background: none;
+    color: #022556;
+    padding-top: 1.4rem;
+  }
+  .Explore_button {
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: center;     /* centers vertically if there's height */
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+            /* optional spacing from above */
+  }
+  .explore {
+    transition: 0.3s  ease-in-out;
+    background-color: rgb(0, 89, 84) ;
+    font-size: 1rem;
+    padding: 1.1rem;
+    border: none;
+    color:#fff;
+    cursor: pointer;
+    outline:none;
+  }
+
+  .explore:hover{
+     background: #4c94f8;
+  }
+
+
+  @media screen and (max-width: 1300px) {
+  .slider{
+      padding: 2.8rem 2.8rem;
+
+  }
+  .Cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    margin: auto;
+    z-index: 9999;
+}
+.card {
+  height: 325px;
+   width: 325px;
+}
+.card h2 {
+   font-size: 1.1rem;
+}
+.explore {
+  font-size: 14px;
+}
+}
+@media screen and (max-width:1200px){
+  .slider_heading h1{
+     font-size:2.7rem;
+  }
+  .Cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    margin: auto;
+    z-index: 9999;
+}
+.card {
+  height: 300px;
+   width: 300px;
+}
+}
+@media screen and (max-width: 1100px){
+.slider_heading h1{
+     font-size:2.7rem;
+  }
+  .Cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1.7rem;
+    margin: auto;
+    z-index: 9999;
+}
+.card {
+  height: 295px;
+   width: 295px;
+}
+
+}
+
+  @media screen and (max-width: 999px){
+.slider_heading h1{
+     font-size:2.4rem;
+  }
+  .Cards {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+    margin: auto;
+    z-index: 9999;
+}
+.card {
+  height: 270px;
+   width: 270px;
+}
+  }
+  @media screen and (max-width: 899px){
+  .slider_heading h1{
+     font-size:2.4rem;
+  }
+  .Cards {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    margin: auto;
+    z-index: 9999;
+}
+.card {
+  height: 295px;
+   width: 295px;
+}
+  }
+@media screen and (max-width: 799px){
+.slider_heading h1{
+     font-size:2.3rem;
+  }
+  .Cards {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    margin: auto;
+    z-index: 9999;
+}
+.card {
+  height: 295px;
+   width: 295px;
+}
+  }
+  @media screen and (max-width: 699px){
+.slider_heading h1{
+     font-size:2.4rem;
+  }
+  .Cards {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    margin: auto;
+    z-index: 9999;
+}
+.card {
+  height: 250px;
+   width: 250px;
+}
+  }
+  @media screen and (max-width: 599px){
+   .slider_heading h1{
+     font-size:2.2rem;
+  }
+  .Cards {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 1rem;
+    margin: auto;
+    z-index: 9999;
+}
+.card {
+  height: 280px;
+   width: 280px;
+}
+  }
+  @media screen and (max-width: 499px){
+  .slider_heading h1{
+     font-size:2.4rem;
+  }
+  .Cards {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 1rem;
+    margin: auto;
+    z-index: 9999;
+}
+.card {
+  height: 270px;
+   width: 270px;
+}
+  }

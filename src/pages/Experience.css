@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.experience-wrapper {
+  padding: 3rem 2rem;
+  background:url('../assets/Experince_background.jpg');
+  height: auto;
+  display: cover;
+  position: relative;
+
+}
+.experience-wrapper .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 25, 47, 0.95); /* bluish dark tone */
+    z-index: 0;
+}
+
+.experience-title {
+  text-align: center;
+  font-size: 3rem;
+  color: rgb(255, 163, 0);
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.experience-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  position: relative;
+  padding-left: 30px;
+}
+
+.experience-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 15px;
+  width: 2px;
+  background-color: rgb(255, 163, 0);
+}
+
+.experience-container {
+    position: relative;
+    padding-left: 40px; /* space for the line and dot */
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+  }
+
+  .experience-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 2px;
+    background-color: rgb(255, 183, 0); /* corrected RGB value */
+  }
+
+  .experience-card {
+    position: relative;
+    padding-left: 30px;
+  }
+
+  .experience-card::before {
+    content: '';
+    position: absolute;
+    top: 8px;
+    left: -12px;
+    width: 12px;
+    height: 12px;
+    background-color: rgb(255, 183, 0);
+    border-radius: 50%;
+    z-index: 1;
+  }
+
+.experience-card {
+  position: relative;
+  padding-left: 30px;
+}
+
+.experience-card::before {
+  content: '';
+  position: absolute;
+  left: -15px;
+  top: 8px;
+  width: 12px;
+  height: 12px;
+  background-color: rgb(255, 163, 0);
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.experience-timeline {
+  color: rgb(255, 163, 0);
+  font-style: italic;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.experience-content {
+  color: #ffffff;
+}
+
+.experience-content h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.experience-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  text-align:justify;
+}
+
+
+/* Responsive styles */
+
+@media (max-width: 1220px) {
+  .experience-wrapper {
+    padding: 3rem 1.5rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .experience-content h2 {
+    font-size: 1.8rem;
+  }
+
+  .experience-content p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 899px) {
+  .experience-title {
+    font-size: 2.5rem;
+  }
+
+  .experience-container {
+    gap: 3rem;
+  }
+
+  .experience-content h2 {
+    font-size: 1.6rem;
+  }
+
+  .experience-content p {
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 799px) {
+  .experience-container {
+    padding-left: 25px;
+  }
+
+  .experience-content h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 699px) {
+  .experience-content h2 {
+    font-size: 1.3rem;
+  }
+
+  .experience-content p {
+    font-size: 12.5px;
+  }
+}
+
+@media (max-width: 599px) {
+  .experience-container::before {
+    left: 10px;
+  }
+
+  .experience-card {
+    padding-left: 25px;
+  }
+
+  .experience-card::before {
+    left: -20px;
+  }
+
+  .experience-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 499px) {
+  .experience-content h2 {
+    font-size: 1.2rem;
+  }
+
+  .experience-content p {
+    font-size: 12px;
+  }
+
+  .experience-title {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 399px) {
+  .experience-title {
+    font-size: 1.5rem;
+  }
+
+  .experience-content h2 {
+    font-size: 1rem;
+  }
+
+}

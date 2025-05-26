@@ -1,0 +1,915 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.hero_section{
+    display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding-top: 4rem;
+  min-height: 600px; /* match your image height */
+  background: url(../assets/hero_section.jpg);
+  background-size: cover;
+   overflow: hidden;
+}
+
+.word_details{
+
+    font-family: "Open sans", sans-serif;
+}
+.word_details h1 {
+    font-size: 5rem;
+    color:#fff;
+    font-weight: 650;
+
+}
+.list{
+     display: flex;
+     gap: 2rem;
+     margin-top: 2rem;
+
+}
+.list ul li {
+     font-family: 'Open sans', sans-serif;
+
+     font-weight: 600;
+     font-size: 1rem;
+     gap: 1rem;
+     text-align: left;
+     color: #ffffff;
+     text-decoration: none;
+    list-style: none;
+}
+.list ul li:before {
+    content: '✓';
+    color: yellow ;
+    margin: 0 2px;
+  }
+.word_details h2 {
+     font-size: 1.8rem;
+     font-weight: 300;
+     color: rgb(253, 215, 22);
+}
+
+
+.word_details button {
+    padding: 1rem 1.5rem;
+    font-family: 'Open sans', sans-serif;
+    font-size: 1rem;
+    transition: 0.3s ease-in-out;
+    margin: 2rem 0rem;
+    border:none;
+    outline: none;
+    background-color: #01223e;
+    color: #ffff;
+}
+.word_details button:hover{
+background-color: #fff;
+color:#262626;
+}
+.acm {
+    position: relative;
+    height: 100px;
+    width: 240px;
+    margin: 2rem 0rem;
+}
+
+.Avatar{
+
+ align-self: flex-end;
+}
+.Avatar img {
+    height: 600px;
+  width: 400px;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+
+}
+
+/* second section starts  */
+
+
+.About {
+
+     padding: 2rem 2rem;
+     overflow: hidden;
+     gap: 2rem;
+     height: auto;
+}
+
+.other_details {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+}
+.other_details h1 {
+     text-transform: uppercase;
+     font-family: 'Open Sans', sans-serif;
+     font-size: 3rem;
+     margin-bottom:0.5rem;
+}
+.other_details h3{
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #01223e;
+    font-weight: 300;
+}
+.other_details p {
+     font-weight: 300;
+     text-align: justify;
+    line-height: 30px;
+    font-size: 13px;
+}
+
+/* third section starts  */
+
+.third_section{
+     padding: 2rem 2rem;
+}
+.Big_Paragraph{
+    font-weight: 300;
+     text-align: justify;
+     line-height: 30px;
+}
+
+
+
+/* blocks section starts  */
+
+.container_for_details{
+    padding: 5rem 0rem;
+     display:grid;
+     grid-template-columns: auto auto auto;
+     margin:auto;
+    gap: 3rem;
+    height: auto;
+    background-color: #01223e;
+    color: #ffffff;
+}
+.container_for_details h3{
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-wrap: wrap;
+    width:100%;
+    text-transform: uppercase;
+}
+.blocks {
+    display: flex;
+    flex-direction: column;
+     justify-content: flex-start;
+     align-items: center;
+     gap:1.1rem;
+     text-align: center;
+}
+.blocks p {
+    font-size: 12px;
+
+    font-weight:400;
+
+    width:80%;
+    text-align: left;
+}
+
+
+/* education section css  */
+
+.education_wrapper{
+    padding: 3rem 3rem;
+    margin: auto;
+    background: rgb(222, 246, 255);
+    margin: auto;
+    padding-bottom: 5rem;
+}
+.education_for_homepage {
+     text-align: Center;
+     font-size: 4rem;
+}
+.a_short_line {
+     content:'';
+     background-color:rgb(285,183,0);
+     height:3px;
+     width: 4rem;
+     margin: auto;
+     margin-bottom: 3rem;
+     margin-top: 2rem;
+}
+.Education_details{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal columns */
+    gap: 1rem;
+    max-width: 1200px;
+    margin: auto;
+}
+.main_university{
+     padding: 2rem 2rem;
+     background-color: #ffffff;
+     border-radius: 5px;
+     width: 100%;
+}
+.Education_details > div:last-child {
+    grid-column: span 2;
+}
+.main_university h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.main_university h4{
+     color:#014a89;
+     margin-bottom:1.2rem;
+     font-family: 'Poppins', sans-serif;
+}
+.main_university p{
+    font-family: 'Poppins', sans-serif;
+    text-align:justify;
+    font-size:12px;
+}
+
+ /* slills section starts  */
+
+ .skills_section_starts {
+    position: relative;
+    background-image: url('../assets/for_skills_section_background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 2rem 2rem;
+    margin: auto;
+    min-height: auto;
+    display: flex;
+    margin:0;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+  }
+  .skills_section_starts .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 25, 47, 0.95); /* bluish dark tone */
+    z-index: 0;
+  }
+
+  /* Content stays on top */
+  .skills_heading {
+    position: relative;
+    z-index: 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    gap: 1.5rem;
+  }
+.skills_heading_h1{
+  font-size: 4rem;
+  font-family: 'Poppins', sasns-serif;
+  font-weight: 600;
+
+}
+.line_for_skills {
+     content: '';
+     height: 3px;
+      width: 10%;
+       margin: auto;
+       background-color: rgb(255, 183, 0);
+       outline: none ;
+       border: none ;
+       border-radius: 3px;
+}
+.skills_heading p {
+    font-family: 'Poppins', sans-serif;
+}
+.skills_grid{
+    z-index: 1;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    grid-gap: 2rem;
+    margin-top: 5rem;
+    width: 80%;
+    border: 1px solid white;
+    padding: 3rem 3rem;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+
+}
+.grid_1, .grid_2, .grid_3 , .grid_4, .grid_5, .grid_6 {
+    display: flex;
+    flex-direction: column;
+    gap: 1.4rem;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+}
+.grid_1, h3 {
+     font-size:1.6rem;
+}
+
+.grid_1, .grid_2, .grid_3 , .grid_4, .grid_5, .grid_6 p{
+    font-size: 12px;
+}
+
+
+/* media query starts for all sections */
+
+
+@media screen and (max-width:1400px){
+    .hero_section{
+         height: auto;
+         width: auto;
+         overflow-y: hidden;
+    }
+    .word_details h1{
+         font-size: 4rem;
+    }
+    .word_details h2{
+        font-size:1.7rem;
+    }
+}
+@media screen and ( max-width: 1200px) {
+    .word_details h1{
+        font-size: 3.8rem;
+   }
+   .word_details h2{
+       font-size:1.6rem;
+   }
+   .word_details button{
+    padding: 1rem 1rem;
+    font-size: 0.8rem;
+   }
+   .main_university h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size:1.4rem;
+}
+.main_university h4{
+    font-size:1.1rem;
+}
+
+
+   /* /education section starts  */
+
+.education_wrapper {
+     padding:2.8rem 2.8rem;
+}
+/* education section ends */
+
+/* skill section starts  */
+.skills_heading_h1{
+  font-size:3.5rem;
+}
+.skills_grid{
+     display: grid;
+     grid-template-columns: repeat(2,1fr);
+}
+.grid_1, h3 {
+    font-size:1.3rem;
+}
+.grid_1, p {
+     font-size:12px;
+}
+
+/* skills section ends  */
+
+
+}
+
+@media screen and (max-width: 1100px){
+    .word_details h1{
+        font-size: 3.8rem;
+   }
+   .word_details h2{
+    font-size:1.7rem;
+}
+.list ul li {
+     font-size: 0.8rem;
+}
+.acm{
+    height: 80px ;
+    width: 200px;
+}
+.About {
+     padding: 1.5rem 1.5rem ;
+}
+/* for about section media query */
+.Avatar_Second img {
+    height: 28rem ;
+     width: 18rem;
+}
+.other_details h1 {
+    font-size: 2.6rem;
+}
+.other_details h3 {
+    font-size: 1.8rem;
+}
+
+/* block section starts  */
+
+
+.container_for_details {
+    padding: 4rem 3rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2.4rem;
+}
+.container_for_details h3{
+    font-size: 1.2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-wrap: wrap;
+    width:100%;
+
+}
+
+/* block section ends  */
+
+
+/* education section starts  */
+
+
+.main_university{
+     padding: 1.7rem  1.7rem;
+}
+/* education section ends  */
+
+
+/* skills section starts  */
+.skills_heading_h1{
+    font-size: 3rem;
+}
+.skills_grid h3{
+     font-size:1.2rem;
+}
+
+}
+
+@media screen and ( max-width: 999px){
+    .word_details h1{
+        font-size: 3.5em;
+   }
+   .word_details h2{
+    font-size:1.5rem;
+}
+.acm{
+    height: 75px ;
+    width: 195px;
+}
+.Avatar img {
+    height: 530px;
+  width: 330px;
+}
+
+
+/* for about section media query */
+
+.Avatar_Second img {
+    height: 27rem ;
+     width: 17rem;
+}
+.other_details h1 {
+    font-size: 2.5rem;
+}
+.other_details h3 {
+    font-size: 1.7rem;
+}
+.other_details p {
+     font-weight: 300;
+}
+
+/* .block section starts  */
+
+.container_for_details{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2.2rem;
+}
+.container_for_details h3 {
+    font-size: 1.5rem;
+}
+.container_for_details p{
+    text-align: center;
+}
+ /* block section ends here  */
+
+
+ /* education section starts  */
+.education_wrapper {
+    padding: 2.6rem 2.6rem;
+}
+.education_for_homepage {
+    font-size:3.5rem;
+}
+
+
+/* skills section starts  */
+.skills_heading_h1{
+    font-size:2.8rem;
+}
+.skills_grid{
+    padding: 2.6rem 2.6rem;
+    width: 90%;
+}
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 899px) {
+    .word_details h1{
+        font-size: 3.4em;
+   }
+   .word_details h2{
+    font-size:1.4rem;
+}
+.acm{
+    height: 80px ;
+    width:190px;
+}
+.Avatar img {
+    height: 510px;
+  width: 310px;
+}
+.list ul li {
+    font-size: 0.7rem;
+}
+/* About Section media Query  */
+.About {
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     margin: auto;
+     align-items: center;
+}
+.other_details{
+     margin: auto;
+     text-align: center;
+     width: auto;
+     padding: 0;
+}
+
+
+/* block section starts  */
+.container_for_details{
+    grid-gap:2.1rem;
+}
+ /* skills section starts  */
+ .skills_grid{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    width: 90%;
+ }
+ .grid_1 h3, .grid_2 h3, .grid_3 h3 , .grid_4 h3, .grid_5 h3, .grid_6 h3{
+     font-size:2rem;
+ }
+
+
+}
+@media screen and (max-width: 855px){
+    .word_details h1{
+        font-size: 3.2em;
+   }
+   .word_details h2{
+    font-size:1.2rem;
+}
+.acm{
+    height: 75px ;
+    width:180px;
+    margin: 1rem 0rem;
+}
+.Avatar img {
+    height: 460px;
+  width: 280px;
+}
+.word_details button {
+    margin: 0.7rem 0rem;
+    font-size: 12px;
+}
+ /* block section ends  */
+
+ /* education section starts  */
+
+ .education_wrapper{
+     padding: 1.6rem 1.6rem;
+ }
+ .education_for_homepage{
+     font-size: 3rem;
+ }
+ .main_university{
+     padding: 1.7rem 1.7rem;
+ }
+ .main_university h1 {
+  font-size:1.2rem;
+ }
+ .main_university h4{
+     font-size: 1rem;
+ }
+ .main_university p {
+     font-size: 11px;
+ }
+ /* education section ends here  */
+
+
+/* skill section starts  */
+
+.grid_1 h3, .grid_2 h3, .grid_3 h3 , .grid_4 h3, .grid_5 h3, .grid_6 h3{
+    font-size:1.7rem;
+}
+
+
+
+
+}
+
+@media screen and (max-width: 799px){
+    .hero_section{
+        height: auto;
+        width: auto;
+        overflow-y: hidden;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: flex-start;
+        margin: auto;
+        padding: 1.8rem 1.8rem;
+        text-align: center;
+   }
+   .word_details{
+     margin: auto;
+   }
+   .word_details h1{
+    font-size: 3.5rem;
+}
+.word_details h2{
+font-size:1.2rem;
+}
+.acm{
+height: 80px ;
+width:190px;
+margin-top:1rem;
+}
+.word_details h2{
+     font-size: 2rem;
+}
+.Avatar {
+    margin: auto;
+    padding-bottom: 2rem;
+}
+.Avatar img {
+height: 390px;
+width: 240px;
+}
+.list ul li {
+     margin: 0.3rem;
+     font-size: 14px;
+}
+
+/* About media query starts  */
+
+.About {
+    padding: 1.2rem 1.2rem;
+}
+.other_details h1 {
+    font-size:2.4rem;
+}
+.other_details h3 {
+    font-size: 1.5rem;
+}
+.other_details p {
+     font-size: 1rem;
+     line-height: 30px;
+}
+/* third section starts  */
+
+
+.third_section {
+     padding: 1.8rem 1.8rem;
+}
+.Big_Paragraph {
+    font-weight: 300;
+    font-size:0.9rem;
+}
+
+
+/* block section starts  */
+.container_for_details {
+    padding: 1.8rem 1.5rem;
+
+}
+.container_for_details h3 {
+    font-size: 1.3rem;
+}
+ /* block section ends here  */
+
+
+ /* education section starts here  */
+.education_for_homepage{
+     font-size: 2.5rem;
+}
+
+.a_short_line {
+    content:'';
+    background-color:rgb(285,183,0);
+    height:3px;
+    width: 4rem;
+    margin: auto;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+}
+.Education_details{
+     display: flex;
+     flex-direction: column;
+     padding: 2rem 2rem;
+}
+
+
+
+
+}
+
+@media screen and (max-width: 699px){
+    .word_details h1{
+        font-size: 3rem;
+    }
+    .word_details h2{
+    font-size:1.5rem;
+    }
+    .acm{
+    height: 75px ;
+    width:180px;
+    margin-top:1rem;
+    }
+
+    .Avatar {
+        margin: auto;
+        padding-bottom: 2rem;
+    }
+    .Avatar img {
+    height: 370px;
+    width: 220px;
+    }
+    .list ul li {
+         margin: 0.3rem;
+         font-size: 12px;
+    }
+
+/* About section media query starts  */
+
+.other_details h1 {
+    font-size: 2.3rem;
+}
+.other_details h3{
+     font-size:1.4rem;
+}
+.other_details p {
+    font-size:0.9rem;
+}
+
+/* block section starts  */
+.container_for_details {
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    padding: 1rem 0rem;
+
+}
+.containaer_for_details p {
+     width: 100%;
+}
+.containaer_for_details h3 {
+     font-size: 1.1rem;
+}
+
+/* block section ends  */
+
+
+/* education section starts */
+
+/* skills section starts  */
+.skills_heading_h1{
+     font-size:2.2rem;
+}
+.grid_1 h3, .grid_2 h3, .grid_3 h3, .grid_4 h3, .grid_5 h3, .grid_6 h3{
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+}
+@media screen and (max-width: 599px){
+    .word_details h1{
+        font-size: 2.5rem;
+    }
+    .word_details h2{
+    font-size:1.3rem;
+    }
+    .acm{
+    height: 70px ;
+    width:170px;
+    margin-top:0.8rem;
+    }
+
+    .Avatar {
+        margin: auto;
+        padding-bottom: 1rem;
+    }
+    .Avatar img {
+    height: 370px;
+    width: 220px;
+    }
+    .list ul li {
+         margin: 0.3rem;
+         font-size: 12px;
+    }
+  .word_details button {
+     font-size: 12px;
+     padding: 1rem;
+  }
+/* About section media query starts  */
+
+.Avatar_second img {
+     height: 24rem;
+     width: 14rem;
+     margin: auto;
+}
+.other_details h1{
+    font-size:2.2rem;
+}
+.other_details h3 {
+    font-size:1.2rem;
+}
+ /* block section starts  */
+
+
+ .container_for_details{
+    padding: 1rem 2rem;
+ }
+
+ .container_for_details h3 {
+    font-size: 1.1rem;
+ }
+   /* block section ends  */
+
+ /* skills section starts  */
+
+   .grid_1 h3, .grid_2 h3, .grid_3 h3, .grid_4 h3, .grid_5 h3, .grid_6 h3{
+    font-size: 1.3rem;
+}
+
+}
+
+@media screen and (max-width: 499px){
+    .word_details h1{
+        font-size: 2.2rem;
+    }
+    .word_details h2{
+    font-size:1.2rem;
+    }
+    .acm{
+    height: 65px ;
+    width:160px;
+    margin-top:0.6rem;
+    }
+
+    .Avatar {
+        margin: auto;
+        padding-bottom: 0.8rem;
+    }
+    .Avatar img {
+    height: 370px;
+    width: 220px;
+    }
+    .list ul li {
+         margin: 0.3rem;
+         font-size: 12px;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+

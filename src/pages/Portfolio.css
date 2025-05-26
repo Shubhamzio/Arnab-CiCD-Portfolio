@@ -1,0 +1,340 @@
+/* Base Portfolio Styles */
+.portfolio-container {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Tab Bar Scroller for Horizontal Scroll */
+.tab-bar-scroller {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 10px 0;
+  background-color: #f5f5f5;
+  margin-bottom: 1rem;
+  display: flex;
+
+}
+
+.tab-bar {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  padding: 0 10px;
+}
+
+.tab-button {
+  padding: 10px 20px;
+  background-color: #eee;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  white-space: nowrap;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.tab-button.active {
+  background-color: #333;
+  color: #fff;
+}
+
+.section-heading {
+  margin: auto;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.heading_related h1 {
+  margin: auto;
+  text-align: center;
+  margin-bottom: 2.3rem;
+}
+
+/* Project Slider */
+.project-slider {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.project-card {
+  position: relative;
+  width: 400px;
+  height: 300px;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.project-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover img {
+  transform: scale(1.05);
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  width: 100%;
+  padding: 10px;
+
+}
+
+/* Hero View */
+.hero-image {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+.hero-overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  width: 100%;
+  padding: 20px;
+}
+
+.thumbnail-gallery {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.thumb-box {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  gap: 10px;
+  z-index: 10;
+  margin: auto;
+}
+
+.thumb-box img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border: 2px solid white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+.thumb-box img:hover {
+  transform: scale(1.1);
+}
+
+.project-description {
+  margin-top: 30px;
+  font-size: 16px;
+  color: #444;
+  line-height: 1.6;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.caption-box{
+     padding: 2rem 2rem ;
+}
+
+.close_btn {
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  background: transparent;
+  color: #262626;
+  border: none;
+  padding: 0.2rem;
+  font-size: 80px;
+  border-radius: 20px;
+  cursor: pointer;
+  z-index:2000;
+
+}
+.section-subheading {
+  font-size: 2rem;
+  margin: 2rem 0 1rem;
+  color: #444;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.3rem;
+  margin: auto;
+   margin-bottom: 2.2rem;
+  text-align: center;
+}
+
+/* Responsive CSS */
+@media (max-width: 1100px) {
+  .project-card {
+    width: 280px;
+  }
+
+  .thumb-box img {
+    width: 70px;
+    height: 55px;
+  }
+}
+
+@media (max-width: 999px) {
+  .project-card {
+    width: 260px;
+  }
+
+  .hero-image {
+    height: 450px;
+  }
+
+  .thumb-box img {
+    width: 65px;
+    height: 50px;
+  }
+}
+
+@media (max-width: 899px) {
+  .tab-bar-scroller{
+    display: flex;
+    flex-direction: row;
+  }
+  .project-slider {
+    justify-content: center;
+  }
+
+  .project-card {
+    width: 240px;
+  }
+
+  .thumb-box {
+    bottom: 10px;
+    left: 10px;
+  }
+
+  .thumb-box img {
+    width: 60px;
+    height: 45px;
+  }
+}
+
+@media (max-width: 799px) {
+  .project-card {
+    width: 220px;
+  }
+  .tab-bar-scroller{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .hero-image {
+    height: 400px;
+  }
+
+  .thumb-box img {
+    width: 55px;
+    height: 42px;
+  }
+}
+
+@media (max-width: 699px) {
+
+  .tab-bar-scroller{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .project-card {
+    width: 200px;
+  }
+
+  .hero-image {
+    height: 350px;
+  }
+
+  .thumb-box img {
+    width: 50px;
+    height: 40px;
+  }
+
+  .overlay h3 {
+    font-size: 16px;
+  }
+
+  .overlay p {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 599px) {
+  .hero-image {
+    height: 300px;
+  }
+
+  .thumb-box img {
+    width: 45px;
+    height: 35px;
+  }
+
+  .tab-button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+}
+
+@media (max-width: 499px) {
+  .project-card {
+    width: 100%;
+  }
+
+  .tab-bar {
+    align-items: center;
+  }
+
+  .thumb-box img {
+    width: 42px;
+    height: 32px;
+  }
+
+  .hero-overlay h2 {
+    font-size: 20px;
+  }
+
+  .hero-overlay p {
+    font-size: 14px;
+  }
+}
+
+
+
+@media (max-width: 399px) {
+  .tab-button {
+    font-size: 13px;
+    padding: 6px 14px;
+  }
+
+  .thumb-box img {
+    width: 38px;
+    height: 30px;
+  }
+
+  .hero-overlay {
+    padding: 10px;
+  }
+
+  .hero-image {
+    height: 250px;
+  }
+}

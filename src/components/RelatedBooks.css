@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Related_books {
+  margin: 2rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.Related_books h1 {
+  margin-bottom: 3rem;
+  font-size: 3rem;
+}
+
+.a_single_line {
+  content: '';
+  width: 10%;
+  background-color: #262626;
+  height: 3px;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+.Related_books_gallery {
+  display: grid;
+  max-width: 1200px;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2rem;
+  margin: auto;
+}
+
+.Related_books_card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.Related_books_card a {
+  text-decoration: none;
+}
+
+.image {
+  height: 300px;
+  width: 200px;
+}
+
+.image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.bookname {
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* ================= Responsive Breakpoints ================= */
+
+@media (max-width: 1200px) {
+  .Related_books_gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 1100px) {
+  .Related_books_gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 999px) {
+  .Related_books_gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 899px) {
+  .Related_books_gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .Related_books h1 {
+    font-size: 2.5rem;
+  }
+
+  .image {
+    height: 260px;
+    width: 180px;
+  }
+}
+
+@media (max-width: 799px) {
+  .Related_books_gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .image {
+    height: 240px;
+    width: 160px;
+  }
+
+  .Related_books h1 {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 699px) {
+  .Related_books_gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .image {
+    height: 220px;
+    width: 150px;
+  }
+}
+
+@media (max-width: 599px) {
+  .Related_books_gallery {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+  }
+
+  .image {
+    height: 200px;
+    width: 140px;
+  }
+
+  .bookname {
+    font-size: 0.9rem;
+  }
+
+  .Related_books h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 499px) {
+  .Related_books_gallery {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+  }
+
+  .image {
+    height: 180px;
+    width: 130px;
+  }
+
+  .bookname {
+    font-size: 0.85rem;
+  }
+
+  .Related_books {
+    padding: 1.5rem;
+    margin: 1.5rem;
+  }
+}

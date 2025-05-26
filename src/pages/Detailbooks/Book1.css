@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.book_details {
+  padding: 2rem 2rem;
+}
+
+.image_and_header {
+  display: flex;
+  justify-content: space-around;
+  gap: 3rem;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.image_and_header h1 {
+  font-size: 2.5rem;
+}
+
+.image_and_header img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.first_part,
+.second_part {
+  width: 100%;
+}
+
+.first_part h1,
+.second_part h1 {
+  font-size: 3rem;
+  text-align: left;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.first_part p,
+.second_part p {
+  text-align: justify;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.third_part h3 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.third_part p {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.division {
+  content: '';
+  width: 20%;
+  height: 3px;
+  border: none;
+  outline: none;
+  background-color: #262626;
+  margin: auto;
+}
+
+/* ================= Responsive Breakpoints ================== */
+
+@media (max-width: 1200px) {
+  .image_and_header h1 {
+    font-size: 2.2rem;
+  }
+}
+
+@media (max-width: 1100px) {
+  .image_and_header {
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 999px) {
+  .image_and_header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .image_and_header h1 {
+    font-size: 2rem;
+  }
+
+  .image_and_header img {
+    width: 180px;
+    height: 270px;
+  }
+}
+
+@media (max-width: 899px) {
+  .first_part h1,
+  .second_part h1 {
+    font-size: 2.2rem;
+  }
+
+  .first_part p,
+  .second_part p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 799px) {
+  .image_and_header h1 {
+    font-size: 1.8rem;
+  }
+
+  .image_and_header img {
+    width: 160px;
+    height: 240px;
+  }
+}
+
+@media (max-width: 699px) {
+  .book_details {
+    padding: 1.5rem;
+  }
+
+  .first_part h1,
+  .second_part h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 599px) {
+  .image_and_header h1 {
+    font-size: 1.6rem;
+  }
+
+  .image_and_header img {
+    width: 140px;
+    height: 220px;
+  }
+
+  .first_part p,
+  .second_part p {
+    font-size: 12.5px;
+  }
+}
+
+@media (max-width: 499px) {
+  .book_details {
+    padding: 1rem;
+  }
+
+  .image_and_header img {
+    width: 120px;
+    height: 180px;
+  }
+
+  .image_and_header h1,
+  .first_part h1,
+  .second_part h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .division {
+    width: 40%;
+  }
+}
