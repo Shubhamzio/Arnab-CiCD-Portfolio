@@ -6,7 +6,7 @@ import './Home.css';
 import { useNavigate } from 'react-router-dom';
 import 'aos/dist/aos.css';
 import Footer from '../components/Footer';
-import Profile from '../assets/avatar.png';
+
 import { FaEye, FaHandshake, FaChartLine, FaBrain, FaUsers,FaHandRock  } from 'react-icons/fa';
 import Slider from '../components/Slider';
 import { FaGlobe } from "react-icons/fa";
