@@ -14,7 +14,7 @@ import img11 from '../assets/books/the-monk.jpg';
 import img12 from '../assets/books/the-war-of-art.jpg';
 import img13 from '../assets/books/tribes.jpg';
 import img14 from '../assets/books/what-they-dont-teach.jpg';
-import { Link} from 'react-router=dom'
+import { Link} from 'react-router-dom';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -40,10 +40,10 @@ const RelatedBooks = () => {
             {/* cards starts  */}
          <div className='Related_books_card'>
             <div className ='image'>
-                <a href = '/book4'><img src ={img2} alt ='first_image'/></a>
+                <Link to = '/book4'><img src ={img2} alt ='first_image'/></Link>
          </div>
         <div className='bookname'>
-            <a href = '/book4'><p>Daring Greatly</p></a>
+            <Link to = '/book4'><p>Daring Greatly</p></Link>
             </div>
         </div>
 
@@ -51,10 +51,10 @@ const RelatedBooks = () => {
             {/* cards starts  */}
          <div className='Related_books_card'>
             <div className ='image'>
-                < a href ='/book3'><img src ={img3} alt ='first_image'/></a>
+                <Link to='/book3'><img src ={img3} alt ='first_image'/></Link>
          </div>
         <div className='bookname'>
-            < a href ='/book3'><p>5 Am Club</p></a>
+            <Link to ='/book3'><p>5 Am Club</p></Link>
             </div>
         </div>
 
@@ -62,10 +62,10 @@ const RelatedBooks = () => {
             {/* cards starts  */}
          <div className='Related_books_card'>
             <div className ='image'>
-                <a href ='/book5'><img src ={img4} alt ='first_image'/></a>
+                <Link to ='/book5'><img src ={img4} alt ='first_image'/></Link>
          </div>
         <div className='bookname'>
-            <a href ='/book5'><p> Drive Summary</p></a>
+            <Link to ='/book5'><p> Drive Summary</p></Link>
             </div>
         </div>
 
@@ -73,10 +73,10 @@ const RelatedBooks = () => {
             {/* cards starts  */}
          <div className='Related_books_card'>
             <div className ='image'>
-                <a href ='/book13'><img src ={img5} alt ='first_image'/></a>
+                <Link to ='/book13'><img src ={img5} alt ='first_image'/></Link>
          </div>
         <div className='bookname'>
-            <a href ='/book13'><p>Getting Things Done</p></a>
+            <Link to ='/book13'><p>Getting Things Done</p></Link>
             </div>
         </div>
 
@@ -84,10 +84,10 @@ const RelatedBooks = () => {
             {/* cards starts  */}
          <div className='Related_books_card'>
             <div className ='image'>
-                < a href ='/book6'><img src ={img6} alt ='first_image'/></a>
+                <Link to ='/book6'><img src ={img6} alt ='first_image'/></Link>
          </div>
         <div className='bookname'>
-           <a href ='/book6'><p>Go Giver</p></a>
+           <Link to ='/book6'><p>Go Giver</p></Link>
             </div>
         </div>
 
@@ -95,10 +95,10 @@ const RelatedBooks = () => {
             {/* cards starts  */}
          <div className='Related_books_card'>
             <div className ='image'>
-                <a href ='/book14'><img src ={img7} alt ='first_image'/></a>
+                <Link to ='/book14'><img src ={img7} alt ='first_image'/></Link>
          </div>
         <div className='bookname'>
-            <a href ='/book14'><p>Lean In</p></a>
+            <Link to ='/book14'><p>Lean In</p></Link>
             </div>
         </div>
 
@@ -106,10 +106,10 @@ const RelatedBooks = () => {
             {/* cards starts  */}
          <div className='Related_books_card'>
             <div className ='image'>
-                <a href ='/book7'><img src ={img8} alt ='first_image'/></a>
+                <Link to ='/book7'><img src ={img8} alt ='first_image'/></Link>
          </div>
         <div className='bookname'>
-            <a href ='/book7'><p>Rules For Life</p></a>
+            <Link to ='/book7'><p>Rules For Life</p></Link>
             </div>
         </div>
 
@@ -128,10 +128,10 @@ const RelatedBooks = () => {
             {/* cards starts  */}
          <div className='Related_books_card'>
             <div className ='image'>
-                <a href ='/book9'><img src ={img10} alt ='first_image'/></a>
+                <Link to ='/book9'><img src ={img10} alt ='first_image'/></Link>
          </div>
         <div className='bookname'>
-            <a href ='/book9'><p> The Dip</p></a>
+            <Link to ='/book9'><p> The Dip</p></Link>
             </div>
         </div>
 
@@ -140,10 +140,10 @@ const RelatedBooks = () => {
             {/* cards starts  */}
          <div className='Related_books_card'>
             <div className ='image'>
-                <a href ='/book2'><img src ={img11} alt ='first_image'/></a>
+                <Link to ='/book2'><img src ={img11} alt ='first_image'/></Link>
          </div>
         <div className='bookname'>
-            <a href ='/book2'><p>The Monk Who Sold His Ferrari</p></a>
+            <Link to ='/book2'><p>The Monk Who Sold His Ferrari</p></Link>
             </div>
         </div>
 
@@ -152,10 +152,10 @@ const RelatedBooks = () => {
             {/* cards starts  */}
          <div className='Related_books_card'>
             <div className ='image'>
-                <a href ='/book10'><img src ={img12} alt ='first_image'/></a>
+                <Link to ='/book10'><img src ={img12} alt ='first_image'/></Link>
          </div>
         <div className='bookname'>
-           <a href ='/book10'> <p>The War Of Art</p></a>
+           <Link to ='/book10'> <p>The War Of Art</p></Link>
             </div>
         </div>
 
@@ -164,10 +164,10 @@ const RelatedBooks = () => {
             {/* cards starts  */}
          <div className='Related_books_card'>
             <div className ='image'>
-                <a href ='/book11'><img src ={img13} alt ='first_image'/></a>
+                <Link to ='/book11'><img src ={img13} alt ='first_image'/></Link>
          </div>
         <div className='bookname'>
-            <a href ='/book11'><p>Tribes</p></a>
+            <Link to ='/book11'><p>Tribes</p></Link>
             </div>
         </div>
 
@@ -176,10 +176,10 @@ const RelatedBooks = () => {
             {/* cards starts  */}
          <div className='Related_books_card'>
             <div className ='image'>
-                <a href ='/book12'><img src ={img14} alt ='first_image'/></a>
+                <Link to ='/book12'><img src ={img14} alt ='first_image'/></Link>
          </div>
         <div className='bookname'>
-            <a href ='/book12'><p>what They Don't Teach At Havard</p></a>
+            <Link to ='/book12'><p>what They Don't Teach At Havard</p></Link>
             </div>
         </div>
 
