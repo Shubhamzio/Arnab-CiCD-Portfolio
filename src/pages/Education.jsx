@@ -6,6 +6,7 @@ import AOS from 'aos';
 import JDV from '/assets/jadavpur_univ.jpg';
 
 
+
 const educationData = [
   {
     location: 'KOLKATA, INDIA',

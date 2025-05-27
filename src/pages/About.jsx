@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { useNavigate } from 'react-router-dom';
 import avatarAbout from '../assets/About.png';
 import './About.css';

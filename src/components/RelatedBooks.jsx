@@ -1,4 +1,4 @@
-import React from 'react';
+
 import img1 from '../assets/books/start-with-why.jpg';
 import './RelatedBooks.css';
 import img2 from '../assets/books/daring-greatly.jpg';
@@ -14,6 +14,7 @@ import img11 from '../assets/books/the-monk.jpg';
 import img12 from '../assets/books/the-war-of-art.jpg';
 import img13 from '../assets/books/tribes.jpg';
 import img14 from '../assets/books/what-they-dont-teach.jpg';
+import { Link} from 'react-router=dom'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -27,11 +28,11 @@ const RelatedBooks = () => {
             {/* cards starts  */}
          <div className='Related_books_card'>
             <div className ='image'>
-              <a href='/book1'> <img src ={img1} alt ='first_image'/></a>
+              <Link to='/book1'> <img src ={img1} alt ='first_image'/></Link>
 
          </div>
         <div className='bookname'>
-           <a href='/book1'> <p>Start With WHY</p></a>
+           <Link to='/book1'> <p>Start With WHY</p></Link>
             </div>
         </div>
 
