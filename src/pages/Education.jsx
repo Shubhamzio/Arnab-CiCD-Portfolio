@@ -3,7 +3,7 @@ import Footer from '../components/Footer';
 import './Education.css';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
-import JDV from './src/assets/jadavpur_univ.jpg';
+import JDV from '/assets/jadavpur_univ.jpg';
 
 
 const educationData = [
