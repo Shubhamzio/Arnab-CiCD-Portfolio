@@ -7,7 +7,7 @@ import "./index.css";  // Global styles
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <HashRouter  basename="/Arnab-CiCD-Portfolio/">
+    <HashRouter  baseName="/Arnab-CiCD-Portfolio/">
     {/* <ScrollToTop/> */}
       <App />
     </HashRouter>
