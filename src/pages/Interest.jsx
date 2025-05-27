@@ -4,6 +4,9 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './Interest.css';
 import { Link } from 'react-router-dom';
+import Travel from '/travelling/travel1.jpg';
+import Travel2 from '/travelling/travel2.jpg';
+import Travel3 from '/travelling/travel3.jpg';
 
 const galleries = {
   Photography: [
@@ -39,9 +42,9 @@ const galleries = {
 
   ],
   Travelling: [
-    { src: './src/assets/travelling/travel1.jpg', caption: 'MEMMIUS MONUMENT EPHESUS' },
-    { src: './src/assets/travelling/travel2.jpg', caption: 'SULTANAHMET SQUARE HIPPODROME' },
-    { src: './src/assets/travelling/travel3.jpg', caption: 'EPHESUS' },
+    { src: Travel , caption: 'MEMMIUS MONUMENT EPHESUS' },
+    { src: Travel2 , caption: 'SULTANAHMET SQUARE HIPPODROME' },
+    { src: Travel3 , caption: 'EPHESUS' },
   ],
   Painting: [
     { src: './src/assets/Painting/painting1.jpg', caption: 'CHARLIE CHAPLIN' },
