@@ -3,49 +3,48 @@ import Footer from '../components/Footer';
 import './Education.css';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
-
+import JDV from '/education/jadavpur_univ.jpg';
+import SYM from '/education/symbiosis.avif';
+import IIOE from '/education/The_institute_of_engineers.jpg';
+import SHB from '/education/shibpur.avif';
 
 
 
 const educationData = [
   {
     location: 'KOLKATA, INDIA',
-    image : './src/assets/jadavpur_univ.jpg',
+    image : JDV ,
     title: 'JADAVPUR UNIVERSITY, BACHELOR OF CIVIL ENGINEERING',
     description:
       'Education : Engineering Mechanics, Engineering Drawing, Fluid Mechanics, Building Material & Construction, Surveying, Structural Mechanics, Thermodynamics & Heat Power, Basic Electrical & Electronics Engineering, Engineering Mathematics, Physics, Chemistry, Building Planning & Drawing, Engineering Geology, Computer Programming, Theory of Structures, Hydrology, Irrigation Engineering, Valuation, Pricing & Contract, Transportation Engineering, Water Supply Engineering, Design of Concrete & Steel Structures, Soil Mechanics, Quantity Surveying, Waste Water Engineering, Hydraulic Structure, Environmental Pollution & Control, Finite Element, Dynamic Analysis.'
   },
   {
     location: 'PUNE, INDIA',
-    image: './src/assets/symbiosis.avif',
+    image: SYM,
     title: 'SYMBIOSIS (DLP), POST GRADUATE DIPLOMA IN BUSINESS ADMINISTRATION (PGDBA) – FINANCE',
     description:
       'Principles and Practices of Management, Organizational Behaviour, Management Accounting, Managerial Economics, Business Law, Production or Operations Management, Financial Management, Human Resources Management, Marketing Management, Management Information Systems, Capital Market, Corporate Governance, Strategic Management, Project Finance, Direct Taxation, Research Methodology and Statistical Quantitative Methods & Projects, International Finance.'
   },
   {
     location: 'KOLKATA, INDIA',
-    image: './src/assets/The_institute_of_engineers.jpg',
+    image: IIOE,
     title: 'THE INSTITUTE OF ENGINEERS (INDIA), CHARTERED ENGINEER',
     description:
       'The Chartered Engineer certificate being issued by the IEI (which is one of world’s oldest and largest professional bodies of Engineers), plays the role of recognition and acceptance of one’s techno-academic qualification and professional attainment on a global platform.'
   },
   {
     location: 'KOLKATA, INDIA',
-    image: './src/assets/The_institute_of_engineers.jpg',
+    image: IIOE,
     title: 'THE INSTITUTE OF ENGINEERS (INDIA), MIE',
     description: 'Twenty one years professional engineering experience in a position of responsibility.'
   },
   {
     location: 'SHIBPUR, HOWRAH , INDIA',
-    image: './src/assets/shibpur.avif',
+    image: SHB,
     title: 'INDIAN INSTITUTE OF ENGINEERING SCIENCE AND TECHNOLOGY, STAAD CERTIFIED ENGINEER',
     description: 'Structural steel and concrete analysis and design software certification.'
   },
-  {
-    location: '',
-    title: '',
-    description:''
-  }
+
 ];
 
 const Education = () => {
