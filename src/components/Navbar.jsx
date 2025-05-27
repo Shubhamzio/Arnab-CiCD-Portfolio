@@ -41,7 +41,7 @@ const Navbar = () => {
 <div>
 
       <ul className={`nav_menu ${isOpen ? 'open' : ''}`} onClick={() => setIsOpen(!isOpen)} >
-        <li><Link to="/home" className='link'>HOME</Link></li>
+        <li><Link to="/" className='link'>HOME</Link></li>
         <li><Link to="/about" className='link'>ABOUT</Link></li>
         <li><Link to="/education" className='link'>EDUCATION</Link></li>
         <li><Link to="/experience" className='link'>EXPERIENCE</Link></li>
