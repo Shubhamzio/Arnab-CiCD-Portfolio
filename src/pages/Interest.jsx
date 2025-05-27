@@ -3,6 +3,7 @@ import Footer from '../components/Footer';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './Interest.css';
+import { Link } from 'react-router-dom';
 
 const galleries = {
   Photography: [
@@ -125,14 +126,14 @@ const Interest = () => {
               {activeGallery === 'Reading' && (
                 <div>
                   <p className="img-caption">{item.caption}</p>
-                  <a
+                  <Link to
                     className="read-more"
                     href={item.link}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     Read More
-                  </a>
+                  </Link>
                 </div>
               )}
             </div>
