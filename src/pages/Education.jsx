@@ -3,14 +3,14 @@ import Footer from '../components/Footer';
 import './Education.css';
 import 'aos/dist/aos.css';
 import AOS from 'aos';
-import JDV from './src/assets/jadavpur_univ.jpg';
+
 
 
 
 const educationData = [
   {
     location: 'KOLKATA, INDIA',
-    image : {JDV},
+    image : './src/assets/jadavpur_univ.jpg',
     title: 'JADAVPUR UNIVERSITY, BACHELOR OF CIVIL ENGINEERING',
     description:
       'Education : Engineering Mechanics, Engineering Drawing, Fluid Mechanics, Building Material & Construction, Surveying, Structural Mechanics, Thermodynamics & Heat Power, Basic Electrical & Electronics Engineering, Engineering Mathematics, Physics, Chemistry, Building Planning & Drawing, Engineering Geology, Computer Programming, Theory of Structures, Hydrology, Irrigation Engineering, Valuation, Pricing & Contract, Transportation Engineering, Water Supply Engineering, Design of Concrete & Steel Structures, Soil Mechanics, Quantity Surveying, Waste Water Engineering, Hydraulic Structure, Environmental Pollution & Control, Finite Element, Dynamic Analysis.'
