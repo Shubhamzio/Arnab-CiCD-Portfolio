@@ -1,6 +1,6 @@
 
 import {   Routes, Route } from "react-router-dom";
-import DisclaimerModal from "./components/DisclaimerModal";
+
 import Navbar from "./components/Navbar";
 import Home from './pages/Home';
 import About from './pages/About';
@@ -39,7 +39,7 @@ import Book14 from './pages/Detailbooks/Book14';
 const App = () => {
   return (
     <div>
-      <DisclaimerModal />
+
       <Navbar />
 
         <Routes>
