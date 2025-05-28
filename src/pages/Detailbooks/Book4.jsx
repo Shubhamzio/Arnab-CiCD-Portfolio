@@ -1,5 +1,5 @@
-import React from 'react';
- import img4 from '../../assets/books/daring-greatly.jpg';
+
+ import img4 from '/books/daring-greatly.jpg';
  import Footer from '../../components/Footer';
 import RelatedBooks from '../../components/RelatedBooks';
 import './Book1.css';

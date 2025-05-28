@@ -1,5 +1,5 @@
 
- import img6 from '../../assets/books/the-war-of-art.jpg';
+ import img6 from '/books/the-war-of-art.jpg';
  import Footer from '../../components/Footer';
 import RelatedBooks from '../../components/RelatedBooks';
  import './Book1.css';

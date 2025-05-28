@@ -1,5 +1,5 @@
-import React from 'react';
- import img3 from '../../assets/books/5-am.jpg';
+
+ import img3 from '/books/5-am.jpg';
  import Footer from '../../components/Footer';
  import RelatedBooks from '../../components/RelatedBooks';
  import './Book1.css';

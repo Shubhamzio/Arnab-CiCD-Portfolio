@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from '../../components/Footer';
 import RelatedBooks from '../../components/RelatedBooks';
 import './Book1.css';
-import img6 from '../../assets/books/lean-in.jpg';
+import img6 from '/books/lean-in.jpg';
 const Book14 = () => {
   return (
     <>

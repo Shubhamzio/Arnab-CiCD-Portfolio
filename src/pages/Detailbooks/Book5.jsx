@@ -1,5 +1,5 @@
 
- import img3 from '../../assets/books/drive-summary.webp';
+ import img3 from '/books/drive-summary.webp';
  import Footer from '../../components/Footer';
  import RelatedBooks from '../../components/RelatedBooks';
  import './Book1.css';

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Footer from '../components/Footer';
 import AOS from 'aos';
-import 'aos/dist/aos.css';
+
 import './Interest.css';
 import { Link } from 'react-router-dom';
 import Travel from '/travelling/travel1.jpg';
@@ -48,8 +48,8 @@ import Painting10 from '/Painting/painting11.jpg';
 import Book1 from "/books/start-with-why.jpg";
 import Book2 from '/books/the-monk.jpg';
 import Book3 from '/books/5-am.jpg';
-import Book4 from '/books/daring-greatly.jpg'
-import Book5 from 'books/drive-summary.webp'
+import Book4 from '/books/daring-greatly.jpg';
+import Book5 from '/books/drive-summary.webp';
 import Book6 from '/books/go-giver-summary.jpg';
 import Book7 from '/books/Rules-for-life.jpg';
 import Book8 from '/books/switch.jpg';
@@ -58,7 +58,7 @@ import Book10 from '/books/the-war-of-art.jpg';
 import Book11 from '/books/tribes.jpg';
 import Book12 from '/books/what-they-dont-teach.jpg';
 import Book13 from '/books/getting-things-done.jpg';
-import Book14  from '/books/lean-in.jpg'
+import Book14  from '/books/lean-in.jpg';
 
 
 
@@ -188,14 +188,14 @@ const Interest = () => {
               {activeGallery === 'Reading' && (
                 <div>
                   <p className="img-caption">{item.caption}</p>
-                  <Link to
+                  <a
                     className="read-more"
                     href={item.link}
                     target="_blank"
                     rel="noopener noreferrer"
                   >
                     Read More
-                  </Link>
+                  </a>
                 </div>
               )}
             </div>

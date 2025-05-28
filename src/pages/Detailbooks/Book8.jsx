@@ -1,5 +1,5 @@
 
- import img6 from '../../assets/books/switch.jpg';
+ import img6 from '/books/switch.jpg';
  import Footer from '../../components/Footer';
 import RelatedBooks from '../../components/RelatedBooks';
  import './Book1.css';

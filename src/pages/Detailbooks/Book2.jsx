@@ -1,5 +1,5 @@
 
-import img2 from '../../assets/books/the-monk.jpg';
+import img2 from '/books/the-monk.jpg';
 import Footer from '../../components/Footer';
 import RelatedBooks from '../../components/RelatedBooks';
 import './Book1.css';

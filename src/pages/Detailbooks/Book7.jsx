@@ -1,5 +1,5 @@
 
- import img6 from '../../assets/books/Rules-for-life.jpg';
+ import img6 from '/books/Rules-for-life.jpg';
  import Footer from '../../components/Footer';
 import RelatedBooks from '../../components/RelatedBooks';
  import './Book1.css';

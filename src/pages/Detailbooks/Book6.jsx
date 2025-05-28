@@ -1,5 +1,5 @@
 
- import img6 from '../../assets/books/go-giver-summary.jpg';
+ import img6 from '/books/go-giver-summary.jpg';
  import Footer from '../../components/Footer';
  import './Book1.css';
  import RelatedBooks from '../../components/RelatedBooks';

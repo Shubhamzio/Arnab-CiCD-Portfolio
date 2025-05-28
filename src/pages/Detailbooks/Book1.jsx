@@ -1,5 +1,5 @@
 
-import img1 from '../../assets/books/start-with-why.jpg';
+import img1 from '/books/start-with-why.jpg';
 import Footer from '../../components/Footer';
 import './Book1.css';
 import RelatedBooks from '../../components/RelatedBooks';
