@@ -36,12 +36,13 @@ import Book11 from './pages/Detailbooks/Book11';
 import Book12 from './pages/Detailbooks/Book12';
 import Book13 from './pages/Detailbooks/Book13';
 import Book14 from './pages/Detailbooks/Book14';
+import ScrollToTop from './components/ScrollToTop';
 const App = () => {
   return (
     <div>
 
       <Navbar />
-
+< ScrollToTop/>
         <Routes>
 
           <Route path="/" element={<Home />} />
