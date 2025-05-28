@@ -7,38 +7,72 @@ import { Link } from 'react-router-dom';
 import Travel from '/travelling/travel1.jpg';
 import Travel2 from '/travelling/travel2.jpg';
 import Travel3 from '/travelling/travel3.jpg';
+import Img1 from '/Photography/photo2.jpg';
+import Img2 from '/Photography/photo3.jpg';
+import Img3 from '/Photography/photo4.jpg';
+import Img4 from '/Photography/photo5.jpg';
+import Img5 from '/Photography/photo6.jpg';
+import Img6 from '/Photography/photo7.jpg';
+import Img7 from '/Photography/photo8.jpg';
+import Img8 from '/Photography/photo9.jpg';
+import Img9 from '/Photography/photo10.jpg';
+import Img10 from '/Photography/photo11.jpg';
+import Img11 from '/Photography/photo12.jpg';
+import Img12 from '/Photography/photo13.jpg';
+import Img13 from '/Photography/photo14.jpg';
+import Img14 from '/Photography/photo15.jpg';
+import Img15 from '/Photography/photo16.jpg';
+import Img16 from '/Photography/photo17.jpg';
+import Img17 from '/Photography/photo18.jpg';
+import Img18 from '/Photography/photo19.jpg';
+import Img19 from '/Photography/photo20.jpg';
+import Img20 from '/Photography/photo21.jpg';
+import Img21 from '/Photography/photo22.jpg';
+import Img22 from '/Photography/photo23.jpg';
+import Img23 from '/Photography/photo24.jpg';
+import Img24 from '/Photography/photo25.jpg';
+import Img25 from '/Photography/photo26.jpg';
+import Img26 from '/Photography/photo27.jpg';
+import Img27 from '/Photography/photo28.jpg';
+import Img28 from '/Photography/photo29.jpg';
+
+
+
+
+
+
 
 const galleries = {
   Photography: [
-    { img: './src/assets/Photography/photo2.jpg', caption: 'DON’T WAIT FOR SOMEONE TO BRING YOU FLOWERS' },
-    { img: './src/assets/Photography/photo3.jpg', caption: 'EVERY SUNSET IS AN OPPORTUNITY TO RESET' },
-    { img: './src/assets/Photography/photo4.jpg', caption: 'THE EARTH HAS MUSIC FOR THOSE WHO LISTEN' },
-    { img: './src/assets/Photography/photo5.jpg', caption: 'A FLOWER CANNOT BLOSSOM WITHOUT SUNSHINE, AND A MAN CANNOT LIVE WITHOUT LOVE' },
-    { img: './src/assets/Photography/photo6.jpg', caption: 'WHEN THE ROOT IS DEEP THERE IS NO REASON TO FEAR THE WORLD' },
-    { img: './src/assets/Photography/photo7.jpg', caption:'WHEN WORDS BECOME UNCLEAR, I SHALL FOCUS WITH PHOTOGRAPHS' },
-    { img: './src/assets/Photography/photo8.jpg', caption: 'HAPPINESS HELD THE SEED; HAPPINESS SHARED IS THE FLOWER' },
-    { img: './src/assets/Photography/photo9.jpg', caption: 'I DON’T LIKE CAPTIONS' },
-    { img: './src/assets/Photography/photo10.jpg', caption: ` ANIMALS DON’T LIE. ANIMALS DON’T CRITICIZE
+    { img:Img1, caption: 'DON’T WAIT FOR SOMEONE TO BRING YOU FLOWERS' },
+    { img: Img2 , caption: 'EVERY SUNSET IS AN OPPORTUNITY TO RESET' },
+    { img: Img3, caption: 'THE EARTH HAS MUSIC FOR THOSE WHO LISTEN' },
+    { img: Img4, caption: 'A FLOWER CANNOT BLOSSOM WITHOUT SUNSHINE, AND A MAN CANNOT LIVE WITHOUT LOVE' },
+    { img: Img5, caption: 'WHEN THE ROOT IS DEEP THERE IS NO REASON TO FEAR THE WORLD' },
+    { img: Img6, caption:'WHEN WORDS BECOME UNCLEAR, I SHALL FOCUS WITH PHOTOGRAPHS' },
+    { img: Img7 , caption: 'HAPPINESS HELD THE SEED; HAPPINESS SHARED IS THE FLOWER' },
+    { img: Img8, caption: 'I DON’T LIKE CAPTIONS' },
+    { img: Img9 , caption: ` ANIMALS DON’T LIE. ANIMALS DON’T CRITICIZE
 ` },
-    { img: './src/assets/Photography/photo11.jpg', caption: 'AN ANIMAL’S EYES HAVE THE POWER TO SPEAK A GREAT LANGUAGE' },
-    { img: './src/assets/Photography/photo12.jpg', caption: 'YOU’RE ONLY HERE FOR A SHORT VISIT. DON’T HURRY, DON’T WORRY' },
-    { img: './src/assets/Photography/photo13.jpg', caption: 'IT ALWAYS RAINS ON THE HARDEST OF THE PEOPLE WHO DESERVES THE SUN' },
-    { img: './src/assets/Photography/photo14.jpg', caption: 'DO NOT FOLLOW WHERE THE PATH MAY LEAD' },
-    { img: './src/assets/Photography/photo15.jpg', caption: 'LIVE YOUR LIFE LIKE A BUTTEFLY. TAKE REST FOR A WHILE, BUT NEVER FORGET TO FLY' },
-    { img: './src/assets/Photography/photo16.jpg', caption: 'LIFE IS CLIMB BUT VIEW IS GREAT' },
-    { img: './src/assets/Photography/photo17.jpg', caption: 'THE BIRD DARES TO BREAK THE SHELL, THEN THE SHELL BREAKS OPEN AND THE BIRD CAN FLY OPENLY. THIS IS THE SIMPLEST PRINCIPLE OF SUCCESS' },
-    { img: './src/assets/Photography/photo18.jpg', caption: 'TAKE TIME TO SMELL THE ROSES' },
-    { img: './src/assets/Photography/photo19.jpg', caption: 'IN A WORLD AND A LIFE THAT MOVES SO FAST, PHOTOGRAPHY JUST MAKES THE SOUND GO OUT AND IT MAKES YOU STOP AND TAKE A PAUSE' },
-    { img: './src/assets/Photography/photo20.jpg', caption: 'NATURE NEVER GOES OUT OF STYLE' },
-    { img: './src/assets/Photography/photo21.jpg', caption: `FLOWERS DON'T TELL, THEY SHOW.` },
-    { img: './src/assets/Photography/photo22.jpg', caption: 'LIKE WILDFLOWERS, YOU MUST ALLOW YOURSELF TO GROW IN ALL THE PLACES PEOPLE THOUGHT YOU NEVER WOULD' },
-    { src: './src/assets/Photography/photo23.jpg', caption: 'FLOWERS DON’T WORRY ABOUT HOW THEY’RE GOING TO BLOOM. THEY JUST OPEN UP AND TURN TOWARD THE LIGHT AND THAT MAKES THEM BEAUTIFUL' },
-    { src: './src/assets/Photography/photo24.jpg', caption: 'SUNSET IS A WONDERFUL OPPORTUNITY FOR US TO APPRECIATE ALL THE GREAT THINGS THE SUN GIVES US!' },
-    { src: './src/assets/Photography/photo25.jpg', caption: 'WHERE FLOWERS BLOOM SO DOES HOPE' },
-    { src: './src/assets/Photography/photo26.jpg', caption: 'THE EYE SHOULD LEARN TO LISTEN BEFORE IT LOOKS' },
-    { src: './src/assets/Photography/photo27.jpg', caption: `BEAUTIFUL THINGS DON'T ASK FOR ATTENTION` },
-    { src: './src/assets/Photography/photo28.jpg', caption: 'HAPPINESS BLOOMS FROM WITHIN' },
-    { src: './src/assets/Photography/photo29.jpg', caption: 'THE BUTTERFLY IS A FLYING FLOWER, THE FLOWER A TETHERED BUTTERFLY' },
+    { img: Img19 , caption: 'AN ANIMAL’S EYES HAVE THE POWER TO SPEAK A GREAT LANGUAGE' },
+    { img: Img11, caption: 'YOU’RE ONLY HERE FOR A SHORT VISIT. DON’T HURRY, DON’T WORRY' },
+    { img: Img12, caption: 'IT ALWAYS RAINS ON THE HARDEST OF THE PEOPLE WHO DESERVES THE SUN' },
+    { img: Img13, caption: 'DO NOT FOLLOW WHERE THE PATH MAY LEAD' },
+    { img: Img14, caption: 'LIVE YOUR LIFE LIKE A BUTTEFLY. TAKE REST FOR A WHILE, BUT NEVER FORGET TO FLY' },
+    { img: Img15, caption: 'LIFE IS CLIMB BUT VIEW IS GREAT' },
+    { img: Img16, caption: 'THE BIRD DARES TO BREAK THE SHELL, THEN THE SHELL BREAKS OPEN AND THE BIRD CAN FLY OPENLY. THIS IS THE SIMPLEST PRINCIPLE OF SUCCESS' },
+    { img: Img17, caption: 'TAKE TIME TO SMELL THE ROSES' },
+    { img: Img18, caption: 'IN A WORLD AND A LIFE THAT MOVES SO FAST, PHOTOGRAPHY JUST MAKES THE SOUND GO OUT AND IT MAKES YOU STOP AND TAKE A PAUSE' },
+    { img: Img19, caption: 'NATURE NEVER GOES OUT OF STYLE' },
+    { img: Img20, caption: `FLOWERS DON'T TELL, THEY SHOW.` },
+    { img: Img21, caption: 'LIKE WILDFLOWERS, YOU MUST ALLOW YOURSELF TO GROW IN ALL THE PLACES PEOPLE THOUGHT YOU NEVER WOULD' },
+    { src: Img22, caption: 'FLOWERS DON’T WORRY ABOUT HOW THEY’RE GOING TO BLOOM. THEY JUST OPEN UP AND TURN TOWARD THE LIGHT AND THAT MAKES THEM BEAUTIFUL' },
+    { src: Img23, caption: 'SUNSET IS A WONDERFUL OPPORTUNITY FOR US TO APPRECIATE ALL THE GREAT THINGS THE SUN GIVES US!' },
+    { src: Img24, caption: 'WHERE FLOWERS BLOOM SO DOES HOPE' },
+    { src: Img25, caption: 'THE EYE SHOULD LEARN TO LISTEN BEFORE IT LOOKS' },
+    { src: Img26, caption: `BEAUTIFUL THINGS DON'T ASK FOR ATTENTION` },
+    { src: Img27, caption: 'HAPPINESS BLOOMS FROM WITHIN' },
+    { src: Img28, caption: 'THE BUTTERFLY IS A FLYING FLOWER, THE FLOWER A TETHERED BUTTERFLY' },
 
   ],
   Travelling: [
