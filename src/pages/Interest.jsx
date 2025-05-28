@@ -45,6 +45,22 @@ import Painting7 from '/Painting/painting8.jpg';
 import Painting8 from '/Painting/painting9.jpg';
 import Painting9 from '/Painting/painting10.jpg';
 import Painting10 from '/Painting/painting11.jpg';
+import Book1 from "/books/start-with-why.jpg";
+import Book2 from '/books/the-monk.jpg';
+import Book3 from '/books/5-am.jpg';
+import Book4 from '/books/daring-greatly.jpg'
+import Book5 from 'books/drive-summary.webp'
+import Book6 from '/books/go-giver-summary.jpg';
+import Book7 from '/books/Rules-for-life.jpg';
+import Book8 from '/books/switch.jpg';
+import Book9 from '/books/the-dip.jpg';
+import Book10 from '/books/the-war-of-art.jpg';
+import Book11 from '/books/tribes.jpg';
+import Book12 from '/books/what-they-dont-teach.jpg';
+import Book13 from '/books/getting-things-done.jpg';
+import Book14  from '/books/lean-in.jpg'
+
+
 
 
 
@@ -102,20 +118,20 @@ const galleries = {
     { img: Painting10, caption: 'Modern Colors' },
   ],
   Reading: [
-    { img: "./src/assets/books/start-with-why.jpg", caption: 'Start With Why' , description: ``, link: '/book1'},
-    { img: './src/assets/books/the-monk.jpg', caption: 'The Monk Who Sold His Ferrari' , description: ``, link: '/book2'},
-    { img: './src/assets/books/5-am.jpg', caption: '5 AM Club' , description: ``, link: '/book3'},
-    { img: './src/assets/books/daring-greatly.jpg', caption: 'Daring Greatly' , description: ``, link: '/book4'},
-    { img: './src/assets/books/drive-summary.webp', caption: 'Drive Summary' , description: ``, link: '/book5'},
-    { img: './src/assets/books/go-giver-summary.jpg', caption: 'The Go Giver' , description: ``, link: '/book6'},
-    { img: './src/assets/books/Rules-for-life.jpg', caption: '12 Rules For Life' , description: ``, link: '/book7'},
-    { img: './src/assets/books/switch.jpg', caption: 'Switch' , description: ``, link: '/book8'},
-    { img: './src/assets/books/the-dip.jpg', caption: 'The Dip' , description: ``, link: '/book9'},
-    { img: './src/assets/books/the-war-of-art.jpg', caption: 'The War Of Art' , description: ``, link: '/book10'},
-    { img: './src/assets/books/tribes.jpg', caption: 'Tribes' , description: ``, link: '/book11'},
-    { img: './src/assets/books/what-they-dont-teach.jpg', caption: `What They Don't Teach You` , description: ``, link: '/book12'},
-    { img: './src/assets/books/getting-things-done.jpg', caption: 'Getting Things Done' , description: ``, link: '/book13'},
-    { img: './src/assets/books/lean-in.jpg', caption: 'Lean In' , description: ``, link: '/book14'},
+    { img: Book1, caption: 'Start With Why' , description: ``, link: '/book1'},
+    { img: Book2 , caption: 'The Monk Who Sold His Ferrari' , description: ``, link: '/book2'},
+    { img: Book3, caption: '5 AM Club' , description: ``, link: '/book3'},
+    { img: Book4, caption: 'Daring Greatly' , description: ``, link: '/book4'},
+    { img: Book5, caption: 'Drive Summary' , description: ``, link: '/book5'},
+    { img: Book6, caption: 'The Go Giver' , description: ``, link: '/book6'},
+    { img: Book7, caption: '12 Rules For Life' , description: ``, link: '/book7'},
+    { img: Book8, caption: 'Switch' , description: ``, link: '/book8'},
+    { img: Book9, caption: 'The Dip' , description: ``, link: '/book9'},
+    { img: Book10, caption: 'The War Of Art' , description: ``, link: '/book10'},
+    { img: Book11, caption: 'Tribes' , description: ``, link: '/book11'},
+    { img: Book12, caption: `What They Don't Teach You` , description: ``, link: '/book12'},
+    { img: Book13, caption: 'Getting Things Done' , description: ``, link: '/book13'},
+    { img: Book14, caption: 'Lean In' , description: ``, link: '/book14'},
 
   ],
   'Playing Cricket': [
