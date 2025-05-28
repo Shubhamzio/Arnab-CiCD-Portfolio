@@ -188,14 +188,10 @@ const Interest = () => {
               {activeGallery === 'Reading' && (
                 <div>
                   <p className="img-caption">{item.caption}</p>
-                  <a
-                    className="read-more"
-                    href={item.link}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Read More
-                  </a>
+                 <Link className="read-more" to={item.link}>
+  Read More
+</Link>
+
                 </div>
               )}
             </div>
