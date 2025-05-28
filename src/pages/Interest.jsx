@@ -35,7 +35,16 @@ import Img25 from '/Photography/Photo26.jpg';
 import Img26 from '/Photography/Photo27.jpg';
 import Img27 from '/Photography/Photo28.jpg';
 import Img28 from '/Photography/Photo29.jpg';
-
+import Painting1 from '/Painting/painting1';
+import Painting2 from '/Painting/painting2';
+import Painting3 from '/Painting/painting3';
+import Painting4 from '/Painting/painting5';
+import Painting5 from '/Painting/painting6';
+import Painting6 from '/Painting/painting7';
+import Painting7 from '/Painting/painting8';
+import Painting8 from '/Painting/painting9';
+import Painting9 from '/Painting/painting10';
+import Painting10 from '/Painting/painting11';
 
 
 
@@ -81,16 +90,16 @@ const galleries = {
     { img: Travel3 , caption: 'EPHESUS' },
   ],
   Painting: [
-    { img: './src/assets/Painting/painting1.jpg', caption: 'CHARLIE CHAPLIN' },
-    { img: './src/assets/Painting/painting2.jpg', caption: 'SATAYJIT RAY' },
-    { img: './src/assets/Painting/painting3.jpg', caption: 'Women Art Work' },
-    { img: './src/assets/Painting/painting5.jpg', caption: 'Kapil Dev' },
-    { img: './src/assets/Painting/painting6.jpg', caption: 'JAGANMOY MITRA' },
-    { img: './src/assets/Painting/painting7.jpg', caption: 'Modern Colors'},
-    { img: './src/assets/Painting/painting8.jpg', caption: 'ART PIC' },
-    { img: './src/assets/Painting/painting9.jpg', caption: 'Modern Colors' },
-    { img: './src/assets/Painting/painting10.jpg', caption: 'MONALISA' },
-    { img: './src/assets/Painting/painting11.jpg', caption: 'Modern Colors' },
+    { img: Painting1, caption: 'CHARLIE CHAPLIN' },
+    { img: Painting2, caption: 'SATAYJIT RAY' },
+    { img: Painting3, caption: 'Women Art Work' },
+    { img: Painting4, caption: 'Kapil Dev' },
+    { img: Painting5, caption: 'JAGANMOY MITRA' },
+    { img: Painting6, caption: 'Modern Colors'},
+    { img: Painting7, caption: 'ART PIC' },
+    { img: Painting8, caption: 'Modern Colors' },
+    { img: Painting9, caption: 'MONALISA' },
+    { img: Painting10, caption: 'Modern Colors' },
   ],
   Reading: [
     { img: "./src/assets/books/start-with-why.jpg", caption: 'Start With Why' , description: ``, link: '/book1'},
