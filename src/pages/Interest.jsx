@@ -35,16 +35,16 @@ import Img25 from '/Photography/Photo26.jpg';
 import Img26 from '/Photography/Photo27.jpg';
 import Img27 from '/Photography/Photo28.jpg';
 import Img28 from '/Photography/Photo29.jpg';
-import Painting1 from '/Painting/painting1';
-import Painting2 from '/Painting/painting2';
-import Painting3 from '/Painting/painting3';
-import Painting4 from '/Painting/painting5';
-import Painting5 from '/Painting/painting6';
-import Painting6 from '/Painting/painting7';
-import Painting7 from '/Painting/painting8';
-import Painting8 from '/Painting/painting9';
-import Painting9 from '/Painting/painting10';
-import Painting10 from '/Painting/painting11';
+import Painting1 from '/Painting/painting1.jpg';
+import Painting2 from '/Painting/painting2.jpg';
+import Painting3 from '/Painting/painting3.jpg';
+import Painting4 from '/Painting/painting5.jpg';
+import Painting5 from '/Painting/painting6.jpg';
+import Painting6 from '/Painting/painting7.jpg';
+import Painting7 from '/Painting/painting8.jpg';
+import Painting8 from '/Painting/painting9.jpg';
+import Painting9 from '/Painting/painting10.jpg';
+import Painting10 from '/Painting/painting11.jpg';
 
 
 
