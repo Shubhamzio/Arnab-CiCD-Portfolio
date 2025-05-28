@@ -7,34 +7,34 @@ import { Link } from 'react-router-dom';
 import Travel from '/travelling/travel1.jpg';
 import Travel2 from '/travelling/travel2.jpg';
 import Travel3 from '/travelling/travel3.jpg';
-import Img1 from '/Photography/photo2.jpg';
-import Img2 from '/Photography/photo3.jpg';
-import Img3 from '/Photography/photo4.jpg';
-import Img4 from '/Photography/photo5.jpg';
-import Img5 from '/Photography/photo6.jpg';
-import Img6 from '/Photography/photo7.jpg';
-import Img7 from '/Photography/photo8.jpg';
-import Img8 from '/Photography/photo9.jpg';
-import Img9 from '/Photography/photo10.jpg';
-import Img10 from '/Photography/photo11.jpg';
-import Img11 from '/Photography/photo12.jpg';
-import Img12 from '/Photography/photo13.jpg';
-import Img13 from '/Photography/photo14.jpg';
-import Img14 from '/Photography/photo15.jpg';
-import Img15 from '/Photography/photo16.jpg';
-import Img16 from '/Photography/photo17.jpg';
-import Img17 from '/Photography/photo18.jpg';
-import Img18 from '/Photography/photo19.jpg';
-import Img19 from '/Photography/photo20.jpg';
-import Img20 from '/Photography/photo21.jpg';
-import Img21 from '/Photography/photo22.jpg';
-import Img22 from '/Photography/photo23.jpg';
-import Img23 from '/Photography/photo24.jpg';
-import Img24 from '/Photography/photo25.jpg';
-import Img25 from '/Photography/photo26.jpg';
-import Img26 from '/Photography/photo27.jpg';
-import Img27 from '/Photography/photo28.jpg';
-import Img28 from '/Photography/photo29.jpg';
+import Img1 from '/Photography/Photo2.jpg';
+import Img2 from '/Photography/Photo3.jpg';
+import Img3 from '/Photography/Photo4.jpg';
+import Img4 from '/Photography/Photo5.jpg';
+import Img5 from '/Photography/Photo6.jpg';
+import Img6 from '/Photography/Photo7.jpg';
+import Img7 from '/Photography/Photo8.jpg';
+import Img8 from '/Photography/Photo9.jpg';
+import Img9 from '/Photography/Photo10.jpg';
+import Img10 from '/Photography/Photo11.jpg';
+import Img11 from '/Photography/Photo12.jpg';
+import Img12 from '/Photography/Photo13.jpg';
+import Img13 from '/Photography/Photo14.jpg';
+import Img14 from '/Photography/Photo15.jpg';
+import Img15 from '/Photography/Photo16.jpg';
+import Img16 from '/Photography/Photo17.jpg';
+import Img17 from '/Photography/Photo18.jpg';
+import Img18 from '/Photography/Photo19.jpg';
+import Img19 from '/Photography/Photo20.jpg';
+import Img20 from '/Photography/Photo21.jpg';
+import Img21 from '/Photography/Photo22.jpg';
+import Img22 from '/Photography/Photo23.jpg';
+import Img23 from '/Photography/Photo24.jpg';
+import Img24 from '/Photography/Photo25.jpg';
+import Img25 from '/Photography/Photo26.jpg';
+import Img26 from '/Photography/Photo27.jpg';
+import Img27 from '/Photography/Photo28.jpg';
+import Img28 from '/Photography/Photo29.jpg';
 
 
 
@@ -54,7 +54,7 @@ const galleries = {
     { img: Img8, caption: 'I DON’T LIKE CAPTIONS' },
     { img: Img9 , caption: ` ANIMALS DON’T LIE. ANIMALS DON’T CRITICIZE
 ` },
-    { img: Img19 , caption: 'AN ANIMAL’S EYES HAVE THE POWER TO SPEAK A GREAT LANGUAGE' },
+    { img: Img10 , caption: 'AN ANIMAL’S EYES HAVE THE POWER TO SPEAK A GREAT LANGUAGE' },
     { img: Img11, caption: 'YOU’RE ONLY HERE FOR A SHORT VISIT. DON’T HURRY, DON’T WORRY' },
     { img: Img12, caption: 'IT ALWAYS RAINS ON THE HARDEST OF THE PEOPLE WHO DESERVES THE SUN' },
     { img: Img13, caption: 'DO NOT FOLLOW WHERE THE PATH MAY LEAD' },
