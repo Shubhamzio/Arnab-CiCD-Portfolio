@@ -159,7 +159,7 @@
   top: 40px;
   right: 40px;
   background: transparent;
-  color: #262626;
+  color: white;
   border: none;
   padding: 0.2rem;
   font-size: 80px;
@@ -285,7 +285,7 @@
 
   .thumb-box img {
     width: 45px;
-    height: 35px;
+    height: 40px;
   }
 
   .tab-button {
@@ -293,7 +293,7 @@
     padding: 8px 16px;
   }
   .close_btn {
-    font-size:12px;
+    font-size:14px;
   }
 }
 
