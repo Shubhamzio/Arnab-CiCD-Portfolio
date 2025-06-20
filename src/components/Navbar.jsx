@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import Logo from '../assets/logo_inverted.png';
+import Logo from '/images/logo_inverted.png';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 import AOS from 'aos';

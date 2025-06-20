@@ -1,12 +1,12 @@
-import Business from '../assets/Business.jpeg';
-import Sabotage from '../assets/sabotage.jpg';
-import Employees from '../assets/employees.jpg';
-import Significance from '../assets/significance_of_time.jpg';
-import Education from '../assets/education.jpg';
-import Distance from '../assets/distance_learning.jpg';
-import Aptitude from '../assets/aptitude.jpg';
-import Computer from '../assets/structural_computer.jpeg';
-import Drawing from '../assets/drawing.webp';
+import Business from '/images/Business.jpeg';
+import Sabotage from '/images/sabotage.jpg';
+import Employees from '/images/employees.jpg';
+import Significance from '/images/significance_of_time.jpg';
+import Education from '/images/education.jpg';
+import Distance from '/images/distance_learning.jpg';
+import Aptitude from '/images/aptitude.jpg';
+import Computer from '/images/structural_computer.jpeg';
+import Drawing from '/images/drawing.webp';
 
 
 const blogData = [

@@ -37,10 +37,11 @@ import Book12 from './pages/Detailbooks/Book12';
 import Book13 from './pages/Detailbooks/Book13';
 import Book14 from './pages/Detailbooks/Book14';
 import ScrollToTop from './components/ScrollToTop';
+import Disclaimer from "./components/Disclaimer";
 const App = () => {
   return (
     <div>
-
+<Disclaimer/>
       <Navbar />
 < ScrollToTop/>
         <Routes>

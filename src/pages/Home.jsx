@@ -1,7 +1,7 @@
 import React  from 'react';
 import AOS from 'aos';
-import avatar from '../assets/avatar.png';
-import Achievements from '../assets/arc.png';
+import avatar from '/images/avatar.png';
+import Achievements from '/images/arc.png';
 import './Home.css';
 import { useNavigate } from 'react-router-dom';
 import 'aos/dist/aos.css';

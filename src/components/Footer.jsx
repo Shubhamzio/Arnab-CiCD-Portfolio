@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../assets/logo_inverted.png';
+import logo from '/images/logo_inverted.png';
 import './Footer.css';
 import { Link } from 'react-router-dom';
 import { FaMapMarkerAlt, FaPhone, FaEnvelope , FaFacebook, FaLinkedin } from "react-icons/fa";

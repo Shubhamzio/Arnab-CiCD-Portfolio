@@ -1,12 +1,12 @@
-import React from 'react';
+
 import { useNavigate } from 'react-router-dom';
 import './Slider.css';
-import First_Project from '../components/Medical.jpg';
-import Second_Project from '../components/industrial.jpg';
-import Third_Project from '../components/instition.jpg';
-import Fourth_Project from '../components/Theater.jpg';
-import Fifth_Project from '../components/Medical.jpg';
-import Sixth_Project from '../components/office.jpg';
+import First_Project from '/images/Medical.jpg';
+import Second_Project from '/images/industrial.jpg';
+import Third_Project from '/images/instition.jpg';
+import Fourth_Project from '/images/Theater.jpg';
+import Fifth_Project from '/images/Medical.jpg';
+import Sixth_Project from '/images/office.jpg';
 import AOS from 'aos';
  import 'aos/dist/aos.css';
 

@@ -1,9 +1,11 @@
 {
+
   "name": "portfolio-website",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "homepage": "https://Shubhamzio.github.io/Arnab-CiCD-Portfolio",
+ "json.schemaDownload.enable": false,
   "scripts": {
     "dev": "vite",
     "build": "vite build",

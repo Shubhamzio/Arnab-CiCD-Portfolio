@@ -12,7 +12,7 @@
   align-items: flex-start;
   padding-top: 4rem;
   min-height: 600px; /* match your image height */
-  background: url(../assets/hero_section.jpg);
+  background: url(/images/hero_section.jpg);
   background-size: cover;
    overflow: hidden;
 }

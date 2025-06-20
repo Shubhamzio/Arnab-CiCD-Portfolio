@@ -1,6 +1,6 @@
 
 import { useNavigate } from 'react-router-dom';
-import avatarAbout from '../assets/About.png';
+import avatarAbout from '/images/About.png';
 import './About.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
