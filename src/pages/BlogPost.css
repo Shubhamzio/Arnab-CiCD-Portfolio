@@ -102,13 +102,18 @@
     .post-title { font-size: 1.8rem; }
   }
   @media (max-width: 599px) {
-    .related-posts { grid-template-columns: 1fr; }
+    .related-posts {
+      grid-template-columns: 1fr;
+    }
+    .readmore-btn {
+       width: 30%;
+    }
   }
   @media (max-width: 499px) {
     .post-title { font-size: 1.5rem; }
   }
   @media (max-width: 399px) {
     .readmore-btn {
-      width: 100%;
+      width: 50%;
     }
   }
