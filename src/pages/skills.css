@@ -1,7 +1,7 @@
 .skills_wrapper{
      padding: 2rem 2rem ;
      margin: auto;
-     background: url('../assets/hero_section.jpg')no-repeat;
+     background: url('/images/hero_section.jpg')no-repeat;
      background-size: cover;
      color: #ffffff;
 
