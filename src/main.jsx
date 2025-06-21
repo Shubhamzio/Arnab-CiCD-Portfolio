@@ -7,7 +7,7 @@ import "./index.css";  // Global styles
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter basename="/Arnab-CiCD-Portfolio/">
+    <BrowserRouter>
     {/* <ScrollToTop/> */}
       <App />
     </BrowserRouter>
