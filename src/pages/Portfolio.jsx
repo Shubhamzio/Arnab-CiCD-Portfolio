@@ -143,6 +143,10 @@ const Portfolio = () => {
         </div>
 
         <h2 className="section-heading" data-aos='fade-right' data-aos-duration='800'>{selectedTab}</h2>
+        <div className="caption-box" data-aos='zoom-in' data-aos-duration='800'>
+              <h3>{selectedProject.name}</h3>
+              <p>{selectedProject.location}</p>
+            </div>
 
         {/* Hero Image View */}
         {selectedProject && (
