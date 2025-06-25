@@ -145,10 +145,6 @@ const Portfolio = () => {
         <h2 className="section-heading" data-aos='fade-right' data-aos-duration='800'>{selectedTab}</h2>
 
         {/* Hero Image View */}
-            <div className="caption-box" data-aos='zoom-in' data-aos-duration='800'>
-              <h3>{selectedProject.name}</h3>
-              <p>{selectedProject.location}</p>
-            </div>
         {selectedProject && (
           <div
             className="hero-image"
@@ -157,6 +153,10 @@ const Portfolio = () => {
             }}
             data-aos='fade-left' data-aos-duration='800'
           >
+            <div className="caption-box" data-aos='zoom-in' data-aos-duration='800'>
+              <h3>{selectedProject.name}</h3>
+              <p>{selectedProject.location}</p>
+            </div>
             <button className="close_btn" onClick={closeHero}>X</button>
             <div className="thumb-box">
               {selectedProject.images.map((img, idx) => (
