@@ -144,33 +144,35 @@ const Portfolio = () => {
 
         <h2 className="section-heading" data-aos='fade-right' data-aos-duration='800'>{selectedTab}</h2>
 
-
         {/* Hero Image View */}
-        {selectedProject && (
-          <div
-            className="hero-image"
-            style={{
-              backgroundImage: `url(${getImage(selectedProject.images[selectedImage])})`,
-            }}
-            data-aos='fade-left' data-aos-duration='800'
-          >
-            <div className="caption-box" data-aos='zoom-in' data-aos-duration='800'>
-              <h3>{selectedProject.name}</h3>
-              <p>{selectedProject.location}</p>
-            </div>
-            <button className="close_btn" onClick={closeHero}>X</button>
-            <div className="thumb-box">
-              {selectedProject.images.map((img, idx) => (
-                <img
-                  key={idx}
-                  src={getImage(img)}
-                  alt="thumbnail"
-                  onClick={() => setSelectedImage(idx)}
-                />
-              ))}
-            </div>
-          </div>
-        )}
+       {selectedProject && (
+  <div className="hero-section" data-aos='fade-left' data-aos-duration='800'>
+    <div className="caption-box" data-aos='zoom-in' data-aos-duration='800'>
+      <h3>{selectedProject.name}</h3>
+      <p>{selectedProject.location}</p>
+    </div>
+
+    <div
+      className="hero-image"
+      style={{
+        backgroundImage: `url(${getImage(selectedProject.images[selectedImage])})`,
+      }}
+    >
+      <button className="close_btn" onClick={closeHero}>X</button>
+      <div className="thumb-box">
+        {selectedProject.images.map((img, idx) => (
+          <img
+            key={idx}
+            src={getImage(img)}
+            alt="thumbnail"
+            onClick={() => setSelectedImage(idx)}
+          />
+        ))}
+      </div>
+    </div>
+  </div>
+)}
+
 
         {/* Description */}
         {selectedProject && (
@@ -210,3 +212,5 @@ const Portfolio = () => {
 };
 export default Portfolio;
 AOS.init();
+
+
