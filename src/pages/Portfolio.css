@@ -50,6 +50,10 @@
   margin-bottom: 2.3rem;
 }
 
+.hero-section {
+   text-align: center;
+}
+
 /* Project Slider */
 .project-slider {
   display: flex;
