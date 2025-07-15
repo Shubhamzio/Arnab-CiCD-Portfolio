@@ -158,7 +158,7 @@ const Portfolio = () => {
         backgroundImage: `url(${getImage(selectedProject.images[selectedImage])})`,
       }}
     >
-      <button className="close_btn" onClick={closeHero}>X</button>
+      <button className="close_btn" onClick={closeHero}><div>&#10006;</div></button>
       <div className="thumb-box">
         {selectedProject.images.map((img, idx) => (
           <img

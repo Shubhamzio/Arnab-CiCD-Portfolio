@@ -157,7 +157,7 @@
 
 .close_btn {
   position: absolute;
-  top: 40px;
+  top: 0px;
   right: 40px;
   background: transparent;
   color: black;
@@ -294,7 +294,9 @@
     padding: 8px 16px;
   }
   .close_btn {
-    font-size:14px;
+    font-size: 20px;
+    margin: -40px ;
+    font-weight: bold;
   }
 }
 
