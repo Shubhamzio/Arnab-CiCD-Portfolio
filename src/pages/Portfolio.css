@@ -123,7 +123,7 @@
 .thumb-box {
   position: absolute;
   top: 500px;
-  bottom: 250px;
+  bottom: 100px;
   left: 20px;
   display: flex;
   gap: 10px;
@@ -210,6 +210,21 @@
     width: 65px;
     height: 50px;
   }
+  .thumb-box {
+  position: absolute;
+  top: 200px;
+  bottom: 100px;
+  left: 20px;
+  display: flex;
+  gap: 10px;
+  z-index: 10;
+  margin: auto;
+}
+.thumb-box img {
+    width: 70px;
+    height: 55px;
+
+}
 }
 
 @media (max-width: 899px) {
