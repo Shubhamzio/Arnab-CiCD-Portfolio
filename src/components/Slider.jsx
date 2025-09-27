@@ -1,12 +1,12 @@
 
 import { useNavigate } from 'react-router-dom';
 import './Slider.css';
-import First_Project from '/images/Medical.jpg';
-import Second_Project from '/images/industrial.jpg';
-import Third_Project from '/images/instition.jpg';
-import Fourth_Project from '/images/Theater.jpg';
-import Fifth_Project from '/images/Medical.jpg';
-import Sixth_Project from '/images/office.jpg';
+import First_Project from '/healthcare/TN-1.jpg';
+import Second_Project from '/Industrial/EastJordan.jpg';
+import Third_Project from '/Instituitional Building/ClarksburgHighSchool.jpg';
+import Fourth_Project from '/Theater Building/HavreDeGraceOperaHouse.jpg';
+import Fifth_Project from '/Instituitional Building/HaymarketElementary.jpg'
+import Sixth_Project from '/Library/PetersburgPublicLibrary.jpg';
 import AOS from 'aos';
  import 'aos/dist/aos.css';
 
