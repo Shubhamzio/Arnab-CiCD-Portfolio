@@ -16,7 +16,8 @@ const portfolioData = {
     {
       name: 'OSF Bloomington MOB',
       location: 'Bloomington , IL',
-      images: ['../src/assets/healthcare/2633246469.jpg', '../src/assets/healthcare/OSF-3.jpg' ]
+      images: ['../src/assets/healthcare/2633246469.jpg', '../src/assets/healthcare/OSF-3.jpg' ],
+      description: 'A state-of-the-art medical office building designed to provide comprehensive outpatient services, featuring advanced medical technology and patient-centered care.'
     },
     {
       name: 'OSF Center For Health Care ',
@@ -180,7 +181,7 @@ const Portfolio = () => {
             <h3 className="section-subheading" data-aos='fade-right' data-aos-duration='800'>Project Description</h3>
             <div className="project-description">
               <p>
-                Project description for <strong>{selectedProject.name}</strong> located in {selectedProject.location}.
+                Project description for <strong>{portfolioData.description}</strong> located in {selectedProject.name}.
               </p>
             </div>
 
